@@ -1,0 +1,1316 @@
+
+/*
+canvas {
+    /*because our canvas is 400px wide we can subtract 200 from half the
+    width/height of the screen to get it to be in the middle*/
+   /* left: calc(50% - 200px);
+    top: calc(50vh - 200px);
+    position: relative;
+    background-color: aqua;
+ } */   
+
+ 
+body{
+    background-image: url(pics/bg2.jpg);
+    background-attachment: fixed;
+}
+
+ .frontbar{
+ position: relative;
+ background-color: #7879f1;
+ height: 480px;
+ margin-top: -50px;
+ margin-left: 0px;
+ margin-right: 0px
+ 
+
+ }
+
+ .logo{
+    position: relative;
+  
+    height: 313px;
+    margin-top: -15%;
+    margin-left: 40%;
+    margin-right: 40%;
+    background-image: url(pics/logo.png);
+    background-size: 100%;
+ }
+
+
+ div.logo:hover{
+
+    background-image: url(pics/logohover.png);
+    background-size: 99.5%;
+ }
+
+ h1{
+     font-size: 50px;
+     text-align:center;
+     margin: 0%;
+     padding-top:180px;
+     color: white;
+ }
+
+ h2{
+    font-size: 20px;
+    text-align:center;
+    margin-top: 0px;
+    color: #E7E7FF;
+ }
+
+.whitebar{
+    position: relative;
+    background-color: white;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    border-radius: 25px;
+    border: 2px solid  #a5a6f6;
+}
+h3{
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    color: #5d5fef;
+    
+}
+h4{padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    color: black;
+
+}
+
+h5{padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 0%;
+    color: #5d5fef;
+
+}
+
+#h5line{
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 0%;
+    color: black;
+
+}
+h6{ padding-left: 10%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    padding-right: 9%;
+    color: #5d5fef;
+
+}
+
+.purplebar{
+    position: relative;
+    background-color: #E7E7FF;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-top: -5%;
+    margin-bottom: 0px;
+    border-top: 2px solid  #a5a6f6;
+}
+.insetnumber{
+    position: relative;
+    padding-left: 5%;
+  
+}
+
+.whitebar2{
+    position: relative;
+    background-color: white;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    border-radius: 25px;
+    border: 2px solid  #a5a6f6;
+    margin-bottom: 0px;
+}
+
+div.whitebar2:hover{
+    border: 3px solid  #484acd;
+ 
+}
+
+
+.whitebar3{
+    position: relative;
+    background-color: #E7E7FF;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    border-radius: 25px;
+    border: 2px solid  #a5a6f6;
+    margin-bottom: 0px;
+}
+
+div.whitebar3:hover{
+    position: relative;
+    background-color: #a29fff;
+    color: white;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    border-radius: 25px;
+    border: 3px solid  #484acd;
+    margin-bottom: 0px;  
+}
+
+.whitebar3 a.link{
+    color: red;
+    text-decoration: none;
+}
+
+
+.whitebar4{
+    position: relative;
+    background-color: #E7E7FF;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    border-radius: 25px;
+    border: 2px solid  #a5a6f6;
+    margin-bottom: 0px;
+}
+
+#videoholder{
+    position: relative;
+   
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 0px;
+    padding-left: 18%;
+    padding-right: 20%;
+}
+
+#child21{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/european-starling.jpg);
+    background-size: 110%;
+    height: 140px;
+    margin-left: 5%;
+    margin-right: 75%;
+    margin-top: -5%;
+   
+}
+
+
+#child22{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/Northern-Cardinal.jpg);
+    background-size: 120%;
+    background-position: right;
+    height: 140px;
+    margin-left: 27%;
+    margin-right: 53%;
+    margin-top: -140px;
+   
+}
+
+
+#child23{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/house-sparrow-male.png);
+    background-size: 130%;
+    background-position: center;
+    height: 140px;
+    margin-left: 49%;
+    margin-right: 31%;
+    margin-top: -140px;
+}
+
+
+#child24{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/blue_jay.jpg);
+    background-size: 110%;
+    height: 140px;
+    margin-left: 71%;
+    margin-right: 9%;
+    margin-top: -140px;
+}
+
+
+#child31{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/european-starling.jpg);
+    background-size: 110%;
+    height: 140px;
+    margin-left: 5%;
+    margin-right: 75%;
+    margin-top: -5%;
+   
+}
+
+
+#child32{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/common-blackbird.jpg);
+    background-size: 120%;
+    background-position: right;
+    height: 140px;
+    margin-left: 27%;
+    margin-right: 53%;
+    margin-top: -140px;
+   
+}
+
+
+#child33{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/American-Robin.jpg);
+    background-size: 130%;
+    background-position: center;
+    height: 140px;
+    margin-left: 49%;
+    margin-right: 31%;
+    margin-top: -140px;
+}
+
+
+#child34{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/magpie.jpg);
+    background-size: 120%;
+    background-position: right;
+    height: 140px;
+    margin-left: 71%;
+    margin-right: 9%;
+    margin-top: -140px;
+}
+
+
+#child41{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/Downy-woodpeckermale.jpg);
+    background-size: 152%;
+    background-position: center;
+    height: 140px;
+    margin-left: 5%;
+    margin-right: 75%;
+    margin-top: -5%;
+   
+}
+
+
+#child42{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/yellow_Billed_blue_magpie.jpg);
+    background-size: 120%;
+    background-position: right;
+    height: 140px;
+    margin-left: 27%;
+    margin-right: 53%;
+    margin-top: -140px;
+   
+}
+
+
+#child43{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/victoria_crwned-pigeon.jpg);
+    background-size: 130%;
+    background-position: center;
+    height: 140px;
+    margin-left: 49%;
+    margin-right: 31%;
+    margin-top: -140px;
+}
+
+
+#child44{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/green_peacock.jpg);
+    background-size: 144%;
+    background-position:center;
+    height: 140px;
+    margin-left: 71%;
+    margin-right: 9%;
+    margin-top: -140px;
+}
+
+
+#child51{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/european-starling.jpg);
+    background-size: 110%;
+    background-position: center;
+    height: 140px;
+    margin-left: 5%;
+    margin-right: 75%;
+    margin-top: -5%;
+   
+}
+
+
+#child52{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/tree-sparrow.jpg);
+    background-size: 120%;
+    background-position: right;
+    height: 140px;
+    margin-left: 27%;
+    margin-right: 53%;
+    margin-top: -140px;
+   
+}
+
+
+#child53{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/big_blue_heron.jpg);
+    background-size: 144%;
+    background-position: left;
+    height: 140px;
+    margin-left: 49%;
+    margin-right: 31%;
+    margin-top: -140px;
+}
+
+
+#child54{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/canadian_goose.jpg);
+    background-size: 110%;
+    background-position:center;
+    height: 140px;
+    margin-left: 71%;
+    margin-right: 9%;
+    margin-top: -140px;
+}
+
+
+#child61{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/peacock.jpg);
+    background-size: 130%;
+    background-position: center;
+    height: 140px;
+    margin-left: 5%;
+    margin-right: 75%;
+    margin-top: -5%;
+   
+}
+
+
+#child62{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/American-Robin.jpg);
+    background-size: 150%;
+    background-position: center;
+    height: 140px;
+    margin-left: 27%;
+    margin-right: 53%;
+    margin-top: -140px;
+   
+}
+
+
+#child63{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/moorhen.jpg);
+    background-size: 120%;
+    background-position: left;
+    height: 140px;
+    margin-left: 49%;
+    margin-right: 31%;
+    margin-top: -140px;
+}
+
+
+#child64{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/grey_cat_bird.jpg);
+    background-size: 124%;
+    background-position:center;
+    height: 140px;
+    margin-left: 71%;
+    margin-right: 9%;
+    margin-top: -140px;
+}
+
+
+#child71{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/common_grackle.jpg);
+    background-size: 170%;
+    background-position: center;
+    height: 140px;
+    margin-left: 5%;
+    margin-right: 75%;
+    margin-top: -5%;
+   
+}
+
+
+#child72{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/moorhen.jpg);
+    background-size: 130%;
+    background-position: center;
+    height: 140px;
+    margin-left: 27%;
+    margin-right: 53%;
+    margin-top: -140px;
+   
+}
+
+
+#child73{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/blue_jay.jpg);
+    background-size: 120%;
+    background-position: left;
+    height: 140px;
+    margin-left: 49%;
+    margin-right: 31%;
+    margin-top: -140px;
+}
+
+
+#child74{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/european-starling.jpg);
+    background-size: 124%;
+    background-position:center;
+    height: 140px;
+    margin-left: 71%;
+    margin-right: 9%;
+    margin-top: -140px;
+}
+
+
+#child81{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/peacoc_female.jpg);
+    background-size: 170%;
+    background-position: center;
+    height: 140px;
+    margin-left: 5%;
+    margin-right: 75%;
+    margin-top: -5%;
+   
+}
+
+
+#child82{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/Female-Northern-Cardinal.jpg);
+    background-size: 130%;
+    background-position: center;
+    height: 140px;
+    margin-left: 27%;
+    margin-right: 53%;
+    margin-top: -140px;
+   
+}
+
+
+#child83{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/downyfemale.jpg);
+    background-size: 120%;
+    background-position: left;
+    height: 140px;
+    margin-left: 49%;
+    margin-right: 31%;
+    margin-top: -140px;
+}
+
+
+#child84{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/mallardmale2.jpg);
+    background-size: 124%;
+    background-position:center;
+    height: 140px;
+    margin-left: 71%;
+    margin-right: 9%;
+    margin-top: -140px;
+}
+
+
+
+
+
+
+
+#child221{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/european-starling.jpg);
+    background-size: 110%;
+    height: 140px;
+    margin-left: 5%;
+    margin-right: 75%;
+    margin-top: -5%;
+   
+}
+
+#child221:hover{
+    position: relative;
+    background-color: white;
+    background-image: url(pics/p11.png);
+    background-size: 110%;
+    height: 140px;
+    margin-left: 5%;
+    margin-right: 75%;
+    margin-top: -5%;
+
+}
+
+
+#child222{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/Northern-Cardinal.jpg);
+    background-size: 120%;
+    background-position: right;
+    height: 140px;
+    margin-left: 27%;
+    margin-right: 53%;
+    margin-top: -140px;
+   
+}
+
+#child222:hover{
+    position: relative;
+    background-color: white;
+    background-image: url(pics/p12.png);
+    background-size: 110%;
+    height: 140px;
+    margin-left: 27%;
+    margin-right: 53%;
+    margin-top: -140px;
+   
+}
+
+
+
+
+#child223{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/house-sparrow-male.png);
+    background-size: 130%;
+    background-position: center;
+    height: 140px;
+    margin-left: 49%;
+    margin-right: 31%;
+    margin-top: -140px;
+}
+
+#child223:hover{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/p13.png);
+    background-size: 130%;
+    background-position: center;
+    height: 140px;
+    margin-left: 49%;
+    margin-right: 31%;
+    margin-top: -140px;
+}
+
+
+#child224{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/blue_jay.jpg);
+    background-size: 110%;
+    height: 140px;
+    margin-left: 71%;
+    margin-right: 9%;
+    margin-top: -140px;
+}
+
+#child224:hover{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/p14.png);
+    background-size: 110%;
+    height: 140px;
+    margin-left: 71%;
+    margin-right: 9%;
+    margin-top: -140px;
+}
+
+
+#child231{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/european-starling.jpg);
+    background-size: 110%;
+    height: 140px;
+    margin-left: 5%;
+    margin-right: 75%;
+    margin-top: -5%;
+   
+}
+
+
+#child231:hover{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/p11.png);
+    background-size: 110%;
+    height: 140px;
+    margin-left: 5%;
+    margin-right: 75%;
+    margin-top: -5%;
+   
+}
+
+
+#child232{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/common-blackbird.jpg);
+    background-size: 120%;
+    background-position: right;
+    height: 140px;
+    margin-left: 27%;
+    margin-right: 53%;
+    margin-top: -140px;
+   
+}
+
+#child232:hover{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/p22.png);
+    background-size: 120%;
+    background-position: right;
+    height: 140px;
+    margin-left: 27%;
+    margin-right: 53%;
+    margin-top: -140px;
+   
+}
+
+
+#child233{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/American-Robin.jpg);
+    background-size: 160%;
+    background-position: center;
+    height: 140px;
+    margin-left: 49%;
+    margin-right: 31%;
+    margin-top: -140px;
+}
+
+#child233:hover{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/p23.png);
+    background-size: 160%;
+    background-position: center;
+    height: 140px;
+    margin-left: 49%;
+    margin-right: 31%;
+    margin-top: -140px;
+}
+
+
+#child234{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/magpie.jpg);
+    background-size: 130%;
+    background-position: right;
+    height: 140px;
+    margin-left: 71%;
+    margin-right: 9%;
+    margin-top: -140px;
+}
+
+#child234:hover{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/p24.png);
+    background-size: 130%;
+    background-position: right;
+    height: 140px;
+    margin-left: 71%;
+    margin-right: 9%;
+    margin-top: -140px;
+}
+
+
+#child241{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/Downy-woodpeckermale.jpg);
+    background-size: 152%;
+    background-position: center;
+    height: 140px;
+    margin-left: 5%;
+    margin-right: 75%;
+    margin-top: -5%;
+   
+}
+
+#child241:hover{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/p31.png);
+    background-size: 152%;
+    background-position: center;
+    height: 140px;
+    margin-left: 5%;
+    margin-right: 75%;
+    margin-top: -5%;
+   
+}
+
+#child242{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/yellow_Billed_blue_magpie.jpg);
+    background-size: 120%;
+    background-position: right;
+    height: 140px;
+    margin-left: 27%;
+    margin-right: 53%;
+    margin-top: -140px;
+   
+}
+
+#child242:hover{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/p32.png);
+    background-size: 120%;
+    background-position: right;
+    height: 140px;
+    margin-left: 27%;
+    margin-right: 53%;
+    margin-top: -140px;
+   
+}
+
+
+#child243{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/victoria_crwned-pigeon.jpg);
+    background-size: 130%;
+    background-position: center;
+    height: 140px;
+    margin-left: 49%;
+    margin-right: 31%;
+    margin-top: -140px;
+}
+
+#child243:hover{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/p33.png);
+    background-size: 130%;
+    background-position: center;
+    height: 140px;
+    margin-left: 49%;
+    margin-right: 31%;
+    margin-top: -140px;
+}
+
+
+#child244{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/green_peacock.jpg);
+    background-size: 144%;
+    background-position:center;
+    height: 140px;
+    margin-left: 71%;
+    margin-right: 9%;
+    margin-top: -140px;
+}
+
+#child244:hover{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/p34.png);
+    background-size: 144%;
+    background-position:center;
+    height: 140px;
+    margin-left: 71%;
+    margin-right: 9%;
+    margin-top: -140px;
+}
+
+
+#child251{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/european-starling.jpg);
+    background-size: 110%;
+    background-position: center;
+    height: 140px;
+    margin-left: 5%;
+    margin-right: 75%;
+    margin-top: -5%;
+
+    
+   
+}
+
+#child251:hover{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/p41.png);
+    background-size: 110%;
+    background-position: center;
+    height: 140px;
+    margin-left: 5%;
+    margin-right: 75%;
+    margin-top: -5%;
+
+    
+   
+}
+
+#child252{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/tree-sparrow.jpg);
+    background-size: 120%;
+    background-position: right;
+    height: 140px;
+    margin-left: 27%;
+    margin-right: 53%;
+    margin-top: -140px;
+   
+}
+
+#child252:hover{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/p42.png);
+    background-size: 125%;
+    background-position: center;
+    height: 140px;
+    margin-left: 27%;
+    margin-right: 53%;
+    margin-top: -140px;
+   
+}
+
+
+#child253{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/big_blue_heron.jpg);
+    background-size: 144%;
+    background-position: left;
+    height: 140px;
+    margin-left: 49%;
+    margin-right: 31%;
+    margin-top: -140px;
+}
+
+#child253:hover{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/p43.png);
+    background-size: 150%;
+    background-position: left;
+    height: 140px;
+    margin-left: 49%;
+    margin-right: 31%;
+    margin-top: -140px;
+}
+
+
+#child254{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/canadian_goose.jpg);
+    background-size: 110%;
+    background-position:center;
+    height: 140px;
+    margin-left: 71%;
+    margin-right: 9%;
+    margin-top: -140px;
+}
+
+#child254:hover{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/p44.png);
+    background-size: 110%;
+    background-position:center;
+    height: 140px;
+    margin-left: 71%;
+    margin-right: 9%;
+    margin-top: -140px;
+}
+
+
+#child261{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/peacock.jpg);
+    background-size: 130%;
+    background-position: center;
+    height: 140px;
+    margin-left: 5%;
+    margin-right: 75%;
+    margin-top: -5%;
+   
+}
+
+#child261:hover{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/p51.png);
+    background-size: 130%;
+    background-position: center;
+    height: 140px;
+    margin-left: 5%;
+    margin-right: 75%;
+    margin-top: -5%;
+   
+}
+
+
+#child262{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/American-Robin.jpg);
+    background-size: 150%;
+    background-position: center;
+    height: 140px;
+    margin-left: 27%;
+    margin-right: 53%;
+    margin-top: -140px;
+   
+}
+
+#child262:hover{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/P52.png);
+    background-size: 150%;
+    background-position: center;
+    height: 140px;
+    margin-left: 27%;
+    margin-right: 53%;
+    margin-top: -140px;
+   
+}
+
+
+#child263{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/moorhen.jpg);
+    background-size: 120%;
+    background-position: left;
+    height: 140px;
+    margin-left: 49%;
+    margin-right: 31%;
+    margin-top: -140px;
+}
+
+#child263:hover{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/p53.png);
+    background-size: 120%;
+    background-position: left;
+    height: 140px;
+    margin-left: 49%;
+    margin-right: 31%;
+    margin-top: -140px;
+}
+
+
+#child264{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/grey_cat_bird.jpg);
+    background-size: 124%;
+    background-position:center;
+    height: 140px;
+    margin-left: 71%;
+    margin-right: 9%;
+    margin-top: -140px;
+}
+
+#child264:hover{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/p54.png);
+    background-size: 124%;
+    background-position:center;
+    height: 140px;
+    margin-left: 71%;
+    margin-right: 9%;
+    margin-top: -140px;
+}
+
+
+#child271{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/common_grackle.jpg);
+    background-size: 170%;
+    background-position: center;
+    height: 140px;
+    margin-left: 5%;
+    margin-right: 75%;
+    margin-top: -5%;
+   
+}
+
+#child271:hover{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/p61.png);
+    background-size: 170%;
+    background-position: center;
+    height: 140px;
+    margin-left: 5%;
+    margin-right: 75%;
+    margin-top: -5%;
+   
+}
+
+
+
+#child272{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/moorhen.jpg);
+    background-size: 130%;
+    background-position: center;
+    height: 140px;
+    margin-left: 27%;
+    margin-right: 53%;
+    margin-top: -140px;
+   
+}
+
+#child272:hover{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/p53.png);
+    background-size: 130%;
+    background-position: center;
+    height: 140px;
+    margin-left: 27%;
+    margin-right: 53%;
+    margin-top: -140px;
+   
+}
+
+
+#child273{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/blue_jay.jpg);
+    background-size: 120%;
+    background-position: left;
+    height: 140px;
+    margin-left: 49%;
+    margin-right: 31%;
+    margin-top: -140px;
+}
+
+#child273:hover{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/p63.png);
+    background-size: 120%;
+    background-position: left;
+    height: 140px;
+    margin-left: 49%;
+    margin-right: 31%;
+    margin-top: -140px;
+}
+
+
+#child274{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/european-starling.jpg);
+    background-size: 124%;
+    background-position:center;
+    height: 140px;
+    margin-left: 71%;
+    margin-right: 9%;
+    margin-top: -140px;
+}
+
+#child274:hover{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/p64.png);
+    background-size: 124%;
+    background-position:center;
+    height: 140px;
+    margin-left: 71%;
+    margin-right: 9%;
+    margin-top: -140px;
+}
+
+
+#child281{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/peacoc_female.jpg);
+    background-size: 170%;
+    background-position: center;
+    height: 140px;
+    margin-left: 5%;
+    margin-right: 75%;
+    margin-top: -5%;
+   
+}
+
+#child281:hover{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/p71.png);
+    background-size: 170%;
+    background-position: center;
+    height: 140px;
+    margin-left: 5%;
+    margin-right: 75%;
+    margin-top: -5%;
+   
+}
+
+
+#child282{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/Female-Northern-Cardinal.jpg);
+    background-size: 130%;
+    background-position: center;
+    height: 140px;
+    margin-left: 27%;
+    margin-right: 53%;
+    margin-top: -140px;
+   
+}
+
+#child282:hover{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/p72.png);
+    background-size: 130%;
+    background-position: center;
+    height: 140px;
+    margin-left: 27%;
+    margin-right: 53%;
+    margin-top: -140px;
+   
+}
+
+
+#child283{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/downyfemale.jpg);
+    background-size: 120%;
+    background-position: left;
+    height: 140px;
+    margin-left: 49%;
+    margin-right: 31%;
+    margin-top: -140px;
+}
+
+
+#child283:hover{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/p73.png);
+    background-size: 120%;
+    background-position: left;
+    height: 140px;
+    margin-left: 49%;
+    margin-right: 31%;
+    margin-top: -140px;
+}
+
+
+#child284{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/mallardmale2.jpg);
+    background-size: 124%;
+    background-position:center;
+    height: 140px;
+    margin-left: 71%;
+    margin-right: 9%;
+    margin-top: -140px;
+}
+
+
+#child284:hover{
+    position: relative;
+    background-color: blue;
+    background-image: url(pics/p74.png);
+    background-size: 124%;
+    background-position:center;
+    height: 140px;
+    margin-left: 71%;
+    margin-right: 9%;
+    margin-top: -140px;
+}
+
+#linktoresult{
+    position: absolute;
+    margin-left: 20px;
+    position: relative ;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
